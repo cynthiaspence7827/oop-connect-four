@@ -22,7 +22,7 @@ button:active {
   background-color: darkred;
 }
 
-input {
+input, label {
   border: 0;
   border-bottom: 2px solid #CCC;
   box-sizing: border-box;
@@ -120,4 +120,16 @@ main {
 .full.click-target:hover {
   background-color: white;
   cursor: no-drop;
+}
+
+label {
+    color: gray;
+}
+
+fieldset {
+    border-color: transparent;
+}
+
+#aiOps {
+    display: none;
 }
